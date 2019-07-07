@@ -71,20 +71,32 @@ class Resume extends Component{
 
                         <h2>Skills</h2>
                         <Skills 
-                        skill='javascript'
-                        progress={100}
+                        skill='Javascript'
+                        progress={64}
                         />
                         <Skills 
-                        skill='python'
-                        progress={60}
+                        skill='Python'
+                        progress={68}
                         />
                         <Skills 
-                        skill='unity'
+                        skill='Unity'
                         progress={45}
                         />
                         <Skills 
-                        skill='react'
-                        progress={25}
+                        skill='ReactJS'
+                        progress={63}
+                        />
+                        <Skills 
+                        skill='Java'
+                        progress={75}
+                        />
+                        <Skills 
+                        skill='C++'
+                        progress={70}
+                        />
+                        <Skills 
+                        skill='Bash'
+                        progress={35}
                         />
                     </Cell>
                 </Grid>
