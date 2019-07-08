@@ -10,7 +10,7 @@ import Resume from './resume';
 const Main =()=>(
     
         <Router basename={process.env.PUBLIC_URL}>
-        <Route exact path="/" component={Landing} />
+        <Route exact path="portfolio-react" component={Landing} />
         <Route path="/aboutme" component={About} />
         <Route path="/contact" component={Contact} />
         <Route path="/projects" component={Project} />
