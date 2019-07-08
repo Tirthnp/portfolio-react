@@ -8,7 +8,7 @@ import Resume from './resume';
 
 
 const Main =()=>(
-    <Switch>
+    
         <Router basename={process.env.PUBLIC_URL}>
         <Route exact path="/" component={Landing} />
         <Route path="/aboutme" component={About} />
@@ -16,6 +16,6 @@ const Main =()=>(
         <Route path="/projects" component={Project} />
         <Route exact path="/resume" component={Resume} />
         </Router>
-    </Switch>
+    
 )
 export default Main;
