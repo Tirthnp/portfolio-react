@@ -12,7 +12,7 @@ class Resume extends Component{
                         <h2>Tirth Patel</h2>
                         <h4 style={{color:'grey'}}>Computer Science Student</h4>
                         <hr style={{borderTop:'3px solid #833fb2', width :'50%'}} />
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam odit accusamus eius similique sapiente quisquam, ab ex illum voluptatum. Error recusandae magni aspernatur reprehenderit eius, soluta tempora quae ut illum!</p>
+                        <p>Hello World ;)</p>
                         <hr style={{borderTop:'3px solid #833fb2', width :'50%'}} />
                         <h5>Address</h5>
                         <p> St John's, NL</p>

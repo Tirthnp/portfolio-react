@@ -11,7 +11,7 @@ class Contact extends Component{
                         src={require('./Tirth.JPG')}
                         alt="avatar"
                         style={{height:'250px'}}/>
-                        <p style={{width:'75%', margin:'auto', paddingTop:'1em' }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia dolorum odit incidunt fugiat neque aliquam voluptatem aliquid, id hic blanditiis, tenetur provident obcaecati eos illum, natus voluptas cumque velit eveniet.</p>
+                        <p style={{width:'75%', margin:'auto', paddingTop:'1em' }}>Contact Me for any potential opportuniy.</p>
 
                     </Cell>
                     <Cell col={6}>
@@ -22,20 +22,20 @@ class Contact extends Component{
                         <List>
                         <ListItem>
                             <ListItemContent style={{fontSize:'30px', fontFamily:'Anton'}} icon="person">
-                                <i className="fab fa-phone"></i>
-                                (709) 325-3822
+                                {/* <i className="fab fa-phone"></i> */}
+                                Phone: (709) 325-3822
                                 </ListItemContent>
                         </ListItem>
+                        {/* <ListItem> */}
+                        {/* <ListItemContent style={{fontSize:'30px', fontFamily:'Anton'}} icon="person"> */}
+                                {/* <i className="fab fa-phone"></i> */}
+                                {/* FAX */}
+                                {/* </ListItemContent> */}
+                        {/* </ListItem> */}
                         <ListItem>
                         <ListItemContent style={{fontSize:'30px', fontFamily:'Anton'}} icon="person">
-                                <i className="fab fa-phone"></i>
-                                FAX
-                                </ListItemContent>
-                        </ListItem>
-                        <ListItem>
-                        <ListItemContent style={{fontSize:'30px', fontFamily:'Anton'}} icon="person">
-                                <i className="fab fa-phone"></i>
-                                tnpatel@mun.ca
+                                {/* <i className="fab fa-phone"></i> */}
+                                Email: tnpatel@mun.ca
                                 </ListItemContent>
                         </ListItem>
                         </List>
