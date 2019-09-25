@@ -34,8 +34,8 @@ class Project extends Component{
                 <CardText>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita nobis veniam dolorum eos dolore eius, harum magnam. Rem, nemo, natus perferendis nostrum culpa tenetur iure quod, id delectus ab labore?</CardText>
                 <CardActions border>
                     <Button colored>GitHub</Button>
-                    {/* <Button colored>CodePen</Button> */}
-                    {/* <Button colored>LiveDemo</Button> */}
+                    <Button colored>CodePen</Button>
+                    <Button colored>LiveDemo</Button>
                 </CardActions >
                 <CardMenu style={{color:'#fff'}}>
                     <IconButton name="share"></IconButton>
