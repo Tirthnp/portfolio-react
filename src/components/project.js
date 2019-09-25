@@ -13,19 +13,20 @@ class Project extends Component{
                 {/* Project 1 */}
                 <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
                     <CardTitle style={{color:'#fff',height:'176px',background:'url(https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png) center / cover'}}>
-                        To Do List
+                        React Project
                     </CardTitle>
-                <CardText>Simple front end TODO List.</CardText>
+                <CardText>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita nobis veniam dolorum eos dolore eius, harum magnam. Rem, nemo, natus perferendis nostrum culpa tenetur iure quod, id delectus ab labore?</CardText>
                 <CardActions border>
                     <Button colored>GitHub</Button>
-                    <a href="http://tirthnp.github.io/react-todo/" target="_blank" rel="noopener noreferrer"><Button colored>LiveDemo</Button></a>
+                    <Button colored>CodePen</Button>
+                    <Button colored>LiveDemo</Button>
                 </CardActions >
                 <CardMenu style={{color:'#fff'}}>
                     <IconButton name="share"></IconButton>
                 </CardMenu>
                 </Card>
 
-                {/* Project 2 */}
+                {/* Project 2 */}\
                 <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
                     <CardTitle style={{color:'#fff',height:'176px',background:'url(https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png) center / cover'}}>
                         React Project
